@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010; 
+    margin-right: 140px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav li a{
+  color: #ffffff;
+  letter-spacing: 10px;
+  margin-left: 90px;
+}
+
+.nav li a:hover{
+    color: #0055ff;
+}
+
+.bar{
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+  align-items: center; 
+  height: 40px;
+  background-color: #000000;
+  letter-spacing: 10px;
+  margin:0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li a{
+    color: #4dd2ff;
+    padding: 10px;
+}
+
+.bar-link:hover {
+    color: #ffffff;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+  margin: 0;
+}
+
+
+header {
+    height: 100px;
+    flex: 1 1 100vw;
+    background-color: #101010; 
+    color: #101010; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+main {
+    height: calc(170vh - 330px);
+    flex: 20 1 500px;
+    background-color: #1c1c1c; 
+    color: #ffffff;
+    padding: 20px;
+    flex: 1 1 calc(100% - 400px);
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #111; 
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 0;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
+aside {
+    background-color: #1c1c1c; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    padding: 5px; 
+}
+.conteudo-principal {
+     text-align: center;
+    max-width: 800px;
+    margin: 5px auto 0 auto
+}
+
+.botoes {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 105vh;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-top: -300px; 
+}
+.botoes .botao {
+    border: none;
+    background-color: black ;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.botoes .botao img {
+    border-radius: 50%;
+  box-shadow: 0 0 5px #0055ff;
+}
+.botoes .botao:hover {
+    background-color:#ffffff;
+    box-shadow: 0 0 10px #4dd2ff;
+}
+.image-login {
+    height: 400px;
+}
+

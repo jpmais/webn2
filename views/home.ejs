@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/reset.css">
+  <title>Geek Meeting</title>
+</head>
+<body>
+ <%- include('./partials/header')  %>
+    <nav class="bar">
+        <ul class="menu">
+            <li><a class="bar-link" href="/onepiece">One Piece</a></li>
+            <li><a class="bar-link" href="/naruto">Naruto</a></li>
+            <li><a class="bar-link" href="/dbz">Dragon Ball</a></li>
+        </ul>
+    </nav>
+ <main class="personagens">
+        <div class="conteudo-principal">
+            <h1>Descubra o Fascinante Mundo dos Personagens de Anime!</h1>
+              <p>Seja bem-vindo a geek meeting, o guia dos principais personagens dos animes                   mais icônicos: One Piece, Naruto e Dragon Ball. Navegue por nosso catálogo e                    descubra informações essenciais sobre seus heróis e vilões favoritos dessas                     séries lendárias Explore o universo de Luffy, Naruto, Goku e muitos outros, tudo                em um só lugar. Junte-se a nós e embarque nesta jornada para conhecer os heróis                 que conquistaram os corações de fãs de todo o mundo. Por enquanto só temos 5                    personagens de cada universo.</p>
+        <img src="/images/principal.jpg" class="image-login" alt="geek">
+        </div>
+    </main>
+
+  <aside>
+   <div class="botoes">
+            <a href="/onepiece" class="botao"><img src="/images/logop.png"></a>
+            <a href="/naruto" class="botao"><img src="/images/logonaruto.png"></a>
+            <a href="/dbz" class="botao"><img src="/images/dragon.png"></a>
+
+        </div>
+  </aside>
+   <footer>
+      <%- include('./partials/footer')  %>
+</footer>
+</body>

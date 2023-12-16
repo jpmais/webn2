@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/personagens.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+
+    <title>Dragon Ball</title>
+</head>
+
+<body>
+          <header>
+        <%- include('./partials/header2')%>
+          </header>
+    <main class="personagens">
+      <div class="personagem">
+        <img class="imagem" src="/images/freeza.jpg" alt="Freeza" />
+        <div class="conteudo">
+           <i class="logo" style="background-image: url('/images/dbt.png'); height: 130px; width:230px;"></i>
+          <h2 class="nome-personagem">Freeza</h2>
+          <p class="descricao"style="color: purple;">Freeza é um tirano intergaláctico e um dos principais antagonistas em Dragon Ball. Ele busca a dominação universal e é conhecido por sua crueldade. Seu maior desejo é alcançar a imortalidade e consolidar seu domínio sobre o universo, tornando-se o ser mais poderoso.</p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img class="imagem" src="images/piccolo.png" alt="Piccolo" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/dbt.png'); height: 130px;                 width:230px;"></i>
+          <h2 class="nome-personagem" style="color: green;">Piccolo</h2>
+          <p class="descricao" style= "color: green;">Piccolo é um Namekuseijin e um personagem chave em Dragon Ball. Inicialmente antagonista, ele se torna um aliado valioso, especialmente na proteção da Terra. Seu objetivo é garantir a segurança do planeta, e ele desempenha um papel vital na formação de Gohan, filho de Goku, como um guerreiro poderoso.<p>
+        </div>
+      </div>
+
+      <div class="personagem selecionado">
+        <img class="imagem" src="/images/goku2.jpg" alt="Goku" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/dbt.png'); height: 130px;                 width:230px;"></i>
+          <h2 class="nome-personagem">Goku</h2>
+          <p class="descricao">Goku, conhecido como o "Guerreiro Saiyajin", é o personagem principal do anime e mangá Dragon Ball. Ele é um poderoso lutador e defensor da Terra, dedicando sua vida ao aprimoramento de suas habilidades marciais. Seu maior objetivo é se tornar o guerreiro mais forte de todos e proteger seu planeta de ameaças intergalácticas.
+</p>
+        </div>
+      </div>
+
+      <div class="personagem">
+
+        <img class="imagem" src="images/vegeta.jpg" alt="vegeta" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/dbt.png'); height: 130px;                 width:230px;"></i>
+          <h2 class="nome-personagem">Vegeta</h2>
+          <p class="descricao">Vegeta, apelidado de "Príncipe dos Saiyajins", é um guerreiro orgulhoso e rival de Goku em Dragon Ball. Inicialmente, ele busca superar Goku em poder, mas ao longo da história, desenvolve uma forte lealdade à Terra e seus habitantes. Seu desejo é se tornar o Saiyajin mais poderoso e proteger sua nova casa.</p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img class="imagem" src="images/majin.jpg" alt="Majin Boo" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/dbt.png'); height: 130px;                 width:230px;"></i>
+          <h2 class="nome-personagem">Majin Boo</h2>
+          <p class="descricao">
+          Majin Boo, uma criatura rosa e imprevisível, é um antagonista em Dragon Ball. Inicialmente, ele é um ser malévolo criado pelo feiticeiro Babidi para espalhar destruição. No entanto, ao longo da história, Boo passa por transformações e desenvolve personalidades distintas. Seu desejo original é causar caos e destruição, mas, eventualmente, ele encontra um caminho surpreendente para a redenção e amizade.</p>
+          
+        </div>
+      </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao">
+                <img src="/images/freezaicon.jpg">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="/images/btpicollo.jpg">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado">
+                <img src="/images/btgoku.png">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="/images/vegettaicon.png">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="/images/majinbooicon.jpg">
+            </button>
+        </li>
+    </ul>
+   <script src="/javascripts/home.js"></script>
+</body> 
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça o Cadastro<br>Preencha os dados corretamente</h1>
+            <img src="/images/animation.svg" class="image-login" alt="geek">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>CADASTRO</h1>
+                <form action="/create" method="post">
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="nome" placeholder="Usuário">
+                    </div>
+                    <div class="textfield">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="Email">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+                    <button type="submit" class="btn-login"><h4>Cadastrar</h4></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

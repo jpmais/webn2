@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"c24ed10b6304de02df98ee337008d0b5","lockfileHash":"4f5f6df8774614b771ce82c4371a74b5","guessedImports":["morgan","express","cookie-parser","http-errors"],"guessedImportsHash":"a5f9df83810fa562ae10bab4ac99db33"}}}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/personagens.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+
+    <title>Naruto</title>
+</head>
+
+<body>
+   <header>
+      <%- include('./partials/header2')%>
+    </header>
+  <i class="logo" style="background-image: url('/images/narutin.png'); height: 150px; width: 350px;"></i>
+    <main class="personagens">
+      <div class="personagem">
+        <img class="imagem" src="/images/shikamaru.jpg" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/narutin.png'); height:             100px;width:230px;"></i>
+          <h2 class="nome-personagem">Shikamaru</h2>
+          <p class="descricao">Shikamaru é um ninja da Vila da Folha em Naruto. Conhecido por sua inteligência excepcional, ele prefere evitar problemas, mas é capaz de elaborar estratégias brilhantes quando necessário. Seu sonho é ter uma vida simples, mas ele assume responsabilidades importantes como estrategista na proteção de sua vila.</p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img class="imagem" src="images/sasuke.jpg"  />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/narutin.png'); height:             100px;width:230px;"></i>
+          <h2 class="nome-personagem">Sasuke Uchiha</h2>
+          <p class="descricao">Sasuke Uchiha é um ninja com uma história marcada por tragédias em Naruto. Após a destruição de seu clã, ele busca poder para se vingar. Seu objetivo inicial é derrotar seu irmão, Itachi, mas sua jornada evolui para confrontos mais complexos. Ele almeja alcançar força e compreensão para proteger aqueles que lhe são importantes.</p>
+        </div>
+      </div>
+
+      <div class="personagem selecionado">
+        <img class="imagem" src="/images/narutingp.jpg"  />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/narutin.png'); height:             100px;width:230px;"></i>
+          <h2 class="nome-personagem">Monkey D. Luffy</h2>
+          <p class="descricao">Naruto Uzumaki é o protagonista de Naruto. Inicialmente desprezado, ele aspira se tornar o Hokage, líder respeitado de sua vila. Seu sonho é ser reconhecido por todos e unir as pessoas através do entendimento. Ele enfrenta desafios incríveis para alcançar seus objetivos.</p>
+        </div>
+      </div>
+
+      <div class="personagem">
+
+        <img class="imagem" src="images/madara.jpg" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/narutin.png'); height:             100px;width:230px;"></i>
+          <h2 class="nome-personagem">Madara Uchiha</h2>
+          <p class="descricao">Madara Uchiha é uma figura lendária em Naruto, conhecido por seu poder e visão única. Ele busca a realização de um mundo ideal, mesmo que para isso precise impor sua própria ordem. Sua ambição é moldar a realidade de acordo com suas crenças, tornando-se uma presença formidável no universo de Naruto.</p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img class="imagem" src="images/kakashi.jpg" />
+        <div class="conteudo">
+          <i class="logo" style="background-image: url('/images/narutin.png'); height:             100px;width:230px;"></i>
+          <h2 class="nome-personagem">Kakashi</h2>
+          <p class="descricao">Kakashi Hatake é um ninja habilidoso e mentor em Naruto. Conhecido como o "Ninja Copiador" devido à sua habilidade de replicar técnicas, ele é um líder respeitado. Seu objetivo é proteger a Vila da Folha e orientar a próxima geração de ninjas para um futuro mais promissor.</p>
+        </div>
+      </div>
+
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao">
+                <img src="/images/btshika.jpg">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="/images/btsasuke.png">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado">
+                <img src="/images/narutoicon.jpg">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="/images/btmadara.png">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="/images/btkakashi.jpg">
+            </button>
+        </li>
+    </ul>
+  <script src="/javascripts/home.js"></script>
+</body> 
+</html>
